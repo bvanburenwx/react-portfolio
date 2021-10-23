@@ -1,13 +1,11 @@
-
-import './App.css';
-
+import React from "react";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import BootstrapNavbar from "./components/Navigation";
 function App() {
   return (
-    <>
-    <h1>Hello World</h1>
-    <h2>Also hello World</h2>
-    </>
+    <div className="App">
+      <BootstrapNavbar />
+    </div>
   );
 }
-
 export default App;
